@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+
+# Server secrets
+server/cert.pem
+server/key.pem
+*.pem
+
+# Android signing
+*.keystore
+*.jks
+
+# Android build
+.gradle/
+build/
+local.properties
+*.iml
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+docs/
